@@ -23,7 +23,7 @@ class CalculatorController extends Controller
 
             $number1 = $request->number1;
             
-            $operator = $request->input('operator');
+            $operator = $request->operator;
             $number2 = $request->input('number2');
 
             $this->isValidate($number1,$number2,$operator);//using this because call the method within the same class

@@ -25,3 +25,4 @@ Route::get('/',function(){
 
 Route::post('/calculate', 'CalculatorController@addNumbers')->name('calculate');
 
+Route::get('/students','StudentController@index')->name('students.index');
